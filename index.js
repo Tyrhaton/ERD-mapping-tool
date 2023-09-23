@@ -177,7 +177,7 @@ document.addEventListener('mousedown', e => {
     } else if (e.target.id == "create attribute") {
         questionType = "attribute";
         anwserType = "new";
-        askInputQuestion("name for the agttribute:");
+        askInputQuestion("name for the attribute:");
     } else if (e.target.id == "create relation") {
         questionType = "relation";
         anwserType = "new";
